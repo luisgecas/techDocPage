@@ -79,7 +79,7 @@ p {
 
 /* ======== MEDIA QUERU ====== */
 
-@media (min-width: 900px) {
+@media (min-width: 900px) {         /*para dispositivos con res. mayor a 900px */
   #main-doc {
     flex-direction: row;
   }
@@ -94,7 +94,7 @@ p {
     padding: 0;
   }
 
-  .divider {
+  .divider {        /* el margensito de arriba a la izquierda */
     width: 100%;
     margin: 0;
     min-height: 100px;
@@ -110,7 +110,7 @@ p {
       color:#ddd;
       padding-left: 40px;
       padding-top:30px;
-      padding: bottom 30px;
+      padding-bottom: 30px;
       background-color: #6200ee;
   }
 
